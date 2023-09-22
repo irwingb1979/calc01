@@ -1,5 +1,96 @@
+.content-calc {
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #c2c2c2;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.row {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.button-content {
+  height: 83px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button-content:hover {
+  background-color: #5a01a7;
+}
+
+.operator {
+  background-color: #00471b;
+}
+
+.operator:hover {
+  background-color: #ff6600;
+}
+
+.input {
+  height: 75px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #29292a;
+  color: white;
+  padding: 11px 30px 11px 11px;
+  margin: 1px solid #888;
+  border: solid 1px #eee;
+}
+
+.boton-clear {
+  height: 80px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1;
+  background-color: #ac0246;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 45px;
+  cursor: pointer;      
+}
+
+.boton-clear:hover {
+  background-color: #ebb000;
+}
+
+
+
+
+
+
+
+/**********/
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  background: #595959;
+  height: 100vh;
 }
 
 .App-logo {
